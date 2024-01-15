@@ -16,10 +16,18 @@ Run headless (app without GUI) app
 > cmake .
 > cmake --build .
 ```
+
 Move file within executable directory and run it through terminal
+
 ```batch
 > cd Debug
 > lab-systems-test.exe
 ```
 
-To build and run, simply open your Qt Creator 4.11.1 & Desktop Qt 5.14.2 MinGW 32-bit (as per my setup).
+To build and run, simply open your `Qt Creator 4.11.1` & `Desktop Qt 5.14.2 MinGW 32-bit` (as per my setup).
+
+To create a file with words for testing, edit the `words.py` file according to your needs and run it.
+
+```batch
+> python words.py
+```
