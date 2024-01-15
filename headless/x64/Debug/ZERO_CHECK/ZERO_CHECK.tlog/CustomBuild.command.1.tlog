@@ -1,0 +1,10 @@
+^D:\PROJECTS\LAB-SYSTEMS-TEST\HEADLESS\CMAKEFILES\F7D4921BCAD416E200ED49D33F2C506D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Projects/lab-systems-test/headless -BD:/Projects/lab-systems-test/headless --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Projects/lab-systems-test/headless/lab-systems-test.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
